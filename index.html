@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Profile Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: url("background.jpg") no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass card */
+.card {
+  width: 420px;
+  padding: 30px;
+  background: rgba(255, 220, 230, 0.55);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Profile image */
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Username */
+.card h1 {
+  font-size: 26px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Little symbols */
+.card p {
+  color: white;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+/* Icons */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.icons i {
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.icons i:hover {
+  transform: scale(1.2);
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <img src="profile.jpg" alt="profile">
+  <h1>pawslyy</h1>
+  <p>✦ ✧ ✦</p>
+
+  <div class="icons">
+    <i class="fa-brands fa-tiktok"></i>
+    <i class="fa-solid fa-x"></i>
+    <i class="fa-brands fa-telegram"></i>
+  </div>
+</div>
+
+</body>
+</html>
